@@ -1,0 +1,190 @@
+@charset "utf-8";
+// Customization
+// You can easily customize Bulma with your own variables.
+// Just uncomment the following block to see the result.
+
+/*
+// 1. Import the initial variables
+@import "../node_modules/bulma/sass/utilities/initial-variables";
+
+// 2. Set your own initial variables
+// Update the blue shade, used for links
+$blue: #06bcef;
+// Add pink and its invert
+$pink: #ff8080;
+$pink-invert: #fff;
+// Update the sans-serif font family
+$family-sans-serif: "Helvetica", "Arial", sans-serif;
+
+// 3. Set the derived variables
+// Use the new pink as the primary color
+$primary: $pink;
+$primary-invert: $pink-invert;
+
+// 4. Import the rest of Bulma
+*/
+
+@import "../node_modules/bulma/bulma";
+
+.main-section {
+  padding-top: 24px;
+  padding-bottom: 12px;
+}
+
+
+.columns:not(:last-child)
+{
+  margin-bottom: 0;
+  
+}
+
+.hero-button
+{
+  background-image: url("../img/info-circle-solid.svg");
+  background-position: 9px center;
+  background-repeat: no-repeat;
+  font-weight: bold;
+  margin-top: -5px;
+  margin-bottom: 20px;
+  width: 290px;
+  height: 66px;
+  background-color: #FFCC33;
+}
+.about-button-1 {
+  background-image: url("../img/SCIEX.svg");
+  background-position: 2% 95%;
+  background-repeat: no-repeat;
+  font-weight: bold;
+  color: white;
+  margin-top: 0px;
+  width: 220px;
+  height: 100px;
+  background-color: #9B9B9B;
+}
+.about-button-2 {
+  background-image: url("../img/user-circle-regular.svg");
+  background-position: 2% 92%;
+  background-repeat: no-repeat;
+  font-weight: bold;
+  color: white;
+  margin-top: 0px;
+  width: 220px;
+  height: 100px;
+  background-color: #9B9B9B;
+}
+.about-button-3 {
+  background-image: url("../img/microscope-solid.svg");
+  background-position: 2% 92%;
+  background-repeat: no-repeat;
+  font-weight: bold;
+  color: white;
+  margin-top: 0px;
+  width: 220px;
+  height: 100px;
+  background-color: #9B9B9B;
+}
+.about-button-4 {
+  background-image: url("../img/drafting-compass-solid.svg");
+  background-position: 2% 92%;
+  background-repeat: no-repeat;
+  font-weight: bold;
+  color: white;
+  margin-top: 0px;
+  width: 220px;
+  height: 100px;
+  background-color: #9B9B9B;
+}
+
+.has-background-image {
+  background-image: url("../img/luca-bravo-207056-unsplash.jpg");
+  height: 276px;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-color: rgb(255, 255, 255);
+  background-size: cover;
+}
+
+.helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.hero-icon {
+
+}
+
+.hero-divider {
+  vertical-align: middle;
+}
+
+.hero-text {
+  //line-height: 100%;
+  margin-bottom: 0.5rem;
+  font-size: 14px;
+}
+
+.main-text {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 120%;
+}
+
+.hero-foot {
+  background-color: #F6F6F6;
+  min-height: 217px;
+  margin-top: 0px;
+}
+
+.hero-body {
+  background-color: #F6F6F6;
+  padding-bottom: 12px;
+
+}
+
+img.arrow {
+  margin-top: 0px;
+  z-index: 100;
+  position: relative;
+}
+
+.columns {
+  margin-bottom: 0px;
+}
+
+
+
+img.logo {
+  margin-top: 24px;
+  z-index: 100;
+  position: relative;
+}
+
+.is-message {
+  background-color: #9B9B9B;
+  color: white;
+  margin-top: -164px;
+  min-height: 251px;
+  text-decoration-color: white;
+}
+
+.is-spacer {
+  color: white;
+  height: 101px;
+}
+
+.title.is-5 {
+  color: white;
+  font-size: 22px;
+}
+
+.subtitle.is-5 {
+  color: white;
+  font-size: 18px;
+}
+
+
+
+body {
+  font-family: 'PT Sans', 'Calibri', 'Trebuchet MS', sans-serif;
+}
